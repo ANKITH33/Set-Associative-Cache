@@ -56,7 +56,7 @@ Enter the corresponding integer to view the results for the desired question.
 
 ### Trace Files
 
-The `traces/` folder contains trace files that can be used as input for the simulator. These trace files are referenced in the `CacheSimulator.py` script.
+The `Input-Trace-Files/` folder contains trace files that can be used as input for the simulator. These trace files are referenced in the `CacheSimulator.py` script.
 
 ## Excel Sheet
 
@@ -64,4 +64,4 @@ The `CacheSimulatorResults.xlsx` excel sheet contains all the results obtained b
 
 ## Report
 
-For a detailed explanation of the cache simulator, including design decisions, implementation details, and analysis of results, please refer to the `report.pdf` file.
+For a detailed explanation of the cache simulator, including design decisions, implementation details, and analysis of results, please refer to the `Report.pdf` file.
