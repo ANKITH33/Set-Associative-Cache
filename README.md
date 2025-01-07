@@ -44,11 +44,14 @@ python CacheSimulator.py
 The code simulates the cache for each of the five trace files. The code always simulates the cache for the user-given input(Question A).
 The simulator will prompt you to enter an integer corresponding to the question you want to analyze:
 
-Enter the integer to view the corresponding answer of the question:
-1- Question B (Hit rate, Miss rate, Hit/Miss ratio for the given cache when the cache size is varied from 128kB to 4096kB)
-2- Question C (Hit rate, Miss rate, Hit/Miss ratio for the given cache when the block size is varied from 1 byte to 128 bytes)
-3- Question D (Hit rate, Miss rate, Hit/Miss ratio for the given cache when the number of cache ways is varied from 1 to 64)
--1 or anything else - Exit
+Enter an integer to view the answer to the respective question:
+
+`1` **Question B**: Displays the Hit rate, Miss rate, and Hit/Miss ratio for the given cache when the cache size is varied from 128kB to 4096kB.  
+`2` **Question C**: Displays the Hit rate, Miss rate, and Hit/Miss ratio for the given cache when the block size is varied from 1 byte to 128 bytes.  
+`3` **Question D**: Displays the Hit rate, Miss rate, and Hit/Miss ratio for the given cache when the number of cache ways is varied from 1 to 64.  
+
+Enter `-1` or any other value to **Exit**.
+
 
 For each question, the code uses Matplotlib to plot the Hit/Miss ratio against the varying perimeter for each of the five trace files.
 
