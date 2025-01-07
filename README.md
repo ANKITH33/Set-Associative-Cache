@@ -23,12 +23,12 @@ The cache simulator can answer the following questions:
 ### Prerequisites
 
 - Python 3.x
-- Required Python packages: `numpy`, `matplotlib`, `pandas`, `tabulate`
+- Required Python packages: `numpy`, `matplotlib`
 
 You can install the required packages using pip:
 
 ```bash
-pip install numpy matplotlib pandas tabulate
+pip install numpy matplotlib 
 ```
 
 ### Running the Simulator
